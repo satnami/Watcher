@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+
+  <Services>
+    <Service>
+      <Name>Service1</Name>
+      <Description>Service1 description</Description>
+      <Enable>true</Enable>
+      <WatchedFolderPathUri>C:\Service1Folder</WatchedFolderPathUri>
+      <Filter>*.txt</Filter>
+      <OnCreateActionUri>C:\Service1Folder\Stop.bat</OnCreateActionUri>
+      <OnDeleteActionUri>C:\Service1Folder\Start.bat</OnDeleteActionUri>
+      <OnRenameActionUri></OnRenameActionUri>
+      <OnChangeActionUri></OnChangeActionUri>
+    </Service>
+
+    <Service>
+      <Name>Service2</Name>
+      <Description>Service2 description</Description>
+      <Enable>false</Enable>
+      <WatchedFolderPathUri>C:\Service2Folder</WatchedFolderPathUri>
+      <Filter>*.txt</Filter>
+      <OnCreateActionUri>C:\Service2Folder\Stop.bat</OnCreateActionUri>
+      <OnDeleteActionUri>C:\Service2Folder\Start.bat</OnDeleteActionUri>
+      <OnRenameActionUri></OnRenameActionUri>
+      <OnChangeActionUri></OnChangeActionUri>
+    </Service>
+    
+  </Services>
+
+</Settings>
